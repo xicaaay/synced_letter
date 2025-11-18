@@ -15,10 +15,10 @@ def escribir_tipeado(texto, velocidad=0.03):
 # ==========================
 
 letra = [
-    "Even though we're going through it",
-    "And it makes you feel alone",
-    "Just know that I would die for you",
-    "Baby I would die for you, yeah"
+    "I can´t walk away, (oh)",
+    "Even though we´re going through it",
+    "And it makes you feel alone, (alone)",
+    "Just know that I would died for you"
 ]
 
 # ==========================
@@ -31,7 +31,7 @@ tiempos = [0, 3.2, 6.7, 10.1]
 # MOTOR DE KARAOKE
 # ==========================
 pygame.mixer.init()
-pygame.mixer.music.load("mp3/Die For You.mp3")
+pygame.mixer.music.load("mp3/test.mp3")
 pygame.mixer.music.play()
 
 inicio = time.time()
